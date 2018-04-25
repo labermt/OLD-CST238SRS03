@@ -34,14 +34,14 @@ Draw Algorithm:
 
 - Draw a point of the selected color at the new location.  
 
-- Using the new location as starting location, loop for the user selected interations.  
+- Using the new location as the starting location, loop for the user selected interations.  
 
 Hints:  
 
 - extend AppCompatImageView and implement View.OnClickListener   
 - @Override public void onDraw(Canvas canvas)  
 - Do as little work as possible in your onDraw() function.  
-- See canvas.drawPoint and documentation.  
+- See Canvas.drawPoint and documentation.  
 - See https://developer.android.com/guide/topics/ui/custom-components.html
 - Read https://material.io/guidelines/patterns/gestures.html#gestures-touch-mechanics
 
