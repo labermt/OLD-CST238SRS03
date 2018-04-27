@@ -44,6 +44,6 @@ Hints:
 - See Canvas.drawPoint and documentation.  
 - See https://developer.android.com/guide/topics/ui/custom-components.html
 - Read https://material.io/guidelines/patterns/gestures.html#gestures-touch-mechanics
-- You will likely want to implement the ctors as described in:  
+- You will want to implement the derived ctors as described in:  
 https://developer.android.com/reference/android/view/View#public-constructors_4
   
