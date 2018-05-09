@@ -1,11 +1,11 @@
 # CST238SRS03
 Graphics  
 
-Student Name:  
+Student Name:  Tim Capehart
 
-Issues:  
+Issues:  None
 
-Notes:  
+Notes:  Tapping screen draws the vertices. Downward swipe will clear the drawing.
 ----
 
 Purpose:  
