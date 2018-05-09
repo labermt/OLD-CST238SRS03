@@ -1,11 +1,11 @@
 # CST238SRS03
 Graphics  
 
-Student Name:  
+Student Name: Jake Knudsen
 
-Issues:  
+Issues: None
 
-Notes:  
+Notes: None
 ----
 
 Purpose:  

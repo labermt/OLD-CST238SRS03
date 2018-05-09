@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Graphics</string>
+    <string name="text_iter">Enter # of iterations</string>
+    <string name="text_fraction">Enter a fraction between 0.0 and 1.0</string>
+    <string name="text_color">Enter a color</string>
+    <string name="button_submit">Submit</string>
+    <string name="button_draw">Draw</string>
+</resources>
