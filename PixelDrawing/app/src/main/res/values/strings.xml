@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PixelDrawing</string>
+    <string-array name="color_array">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Black</item>
+        <item>Yellow</item>
+    </string-array>
+</resources>
