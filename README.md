@@ -1,11 +1,13 @@
 # CST238SRS03
 Graphics  
 
-Student Name:  
+Student Name:  Shant Ahuja
 
-Issues:  
+Issues:  in PixelDrawing2, I tried to have a separate settings page. I couldn't figure this out using the intent
+	method. I wanted to include this in my assignment turn in because I think it would have helped the user
+	if they were able to have a separate settings page in order to make their drawing space bigger.
 
-Notes:  
+Notes:  PixelDrawing is the working project! PixelDrawing2 is just an idea I couldn't follow through with.
 ----
 
 Purpose:  
