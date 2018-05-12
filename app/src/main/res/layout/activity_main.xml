@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/mainInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/canvas_view"
+        android:layout_width="match_parent"
+        android:layout_height="417dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/range_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="?android:attr/colorBackground" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/submit_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color_spinner"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <TextView
+        android:id="@+id/range_text"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/range_view"
+        android:textSize="50px"
+        app:layout_constraintEnd_toStartOf="@+id/minrange"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/canvas_view"
+        tools:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/iter_view"
+        android:layout_width="81dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/iter_view"
+        android:textSize="50px"
+        app:layout_constraintEnd_toStartOf="@+id/iter_edit"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/range_text"
+        tools:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/iter_edit"
+        android:layout_width="86dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColorLink="@android:color/black"
+        android:textSize="50px"
+        app:layout_constraintEnd_toStartOf="@+id/color_spinner"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iter_view"
+        app:layout_constraintTop_toBottomOf="@+id/range_seekbar"
+        tools:textColor="@android:color/black" />
+
+    <Spinner
+        android:id="@+id/color_spinner"
+        android:layout_width="192dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="28dp"
+        android:entries="@array/color_array"
+        android:textSize="50px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iter_edit"
+        app:layout_constraintTop_toBottomOf="@+id/range_seekbar"
+        tools:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/minrange"
+        android:layout_width="23dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/slideLeft"
+        android:textSize="50px"
+        app:layout_constraintEnd_toStartOf="@+id/range_seekbar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/range_text"
+        app:layout_constraintTop_toBottomOf="@+id/canvas_view" />
+
+    <SeekBar
+        android:id="@+id/range_seekbar"
+        android:layout_width="195dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/maxrange"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/minrange"
+        app:layout_constraintTop_toBottomOf="@+id/canvas_view" />
+
+    <TextView
+        android:id="@+id/maxrange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/slideRight"
+        android:textSize="50px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/range_seekbar"
+        app:layout_constraintTop_toBottomOf="@+id/canvas_view" />
+
+    <TextView
+        android:id="@+id/barValue"
+        android:layout_width="57dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginStart="180dp"
+        app:layout_constraintBottom_toTopOf="@+id/range_seekbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/canvas_view" />
+
+</android.support.constraint.ConstraintLayout>
