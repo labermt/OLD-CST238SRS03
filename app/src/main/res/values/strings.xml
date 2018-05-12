@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SRS03|Graphics Assignment</string>
+    <string name="slideLeft">0.0</string>
+    <string name="slideRight">1.0</string>
+    <string name="mainInfo">Go ahead tap on the canvas at least 3 points!</string>
+    <string name="submit_button">Start Drawing</string>
+
+    <string-array name="color_array">
+        <item>Black</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+    </string-array>
+    <string name="range_view">Select Range:</string>
+    <string name="iter_view">Num of iter:</string>
+    </resources>
