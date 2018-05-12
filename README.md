@@ -2,11 +2,13 @@
 Graphics  
 
 Student Name:  
+Yenny Purwanto
 
 Issues:  
+1. Having dificulties to call onDraw().
 
 Notes:  
-----
+1. Program successfuly built on the first commit, but still in debugging process.
 
 Purpose:  
 
