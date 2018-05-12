@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Graphic">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="* Hold Screen To Erase Points"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Iterations"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Number of Iter."
+        android:inputType="number"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Fraction"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:hint="Fraction"
+        android:inputType="numberDecimal"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/Color"
+        android:layout_width="112dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.example.graphic.CustomImageView
+        android:id="@+id/imageView"
+        android:layout_width="389dp"
+        android:layout_height="431dp"
+        android:contentDescription="draw points"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375"
+        app:srcCompat="@android:color/background_light" />
+</android.support.constraint.ConstraintLayout>

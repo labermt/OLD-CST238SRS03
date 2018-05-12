@@ -1,7 +1,7 @@
 # CST238SRS03
 Graphics  
 
-Student Name:  
+Student Name: Nicholas Slaughter 
 
 Issues:  
 
