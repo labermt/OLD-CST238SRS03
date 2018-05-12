@@ -11,6 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
 import android.view.View;
+import android.widget.Toast;
 
 import java.util.Random;
 import java.util.Vector;
@@ -39,9 +40,17 @@ public class ImageActivity extends AppCompatActivity
 
     public void OnButtonDraw(View view)
     {
-        drawing.setButtonPressed();
-        drawing.randomizeVertices();
-        drawing.calculatePoints();
-        drawing.invalidate();
+        if (drawing.checkVertices())
+        {
+            drawing.setButtonPressed();
+            drawing.randomizeVertices();
+            drawing.calculatePoints();
+            drawing.invalidate();
+        }
+        else
+        {
+            Toast.makeText(this, "Please select at-least 3 points!",
+                    Toast.LENGTH_LONG).show();
+        }
     }
 }

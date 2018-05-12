@@ -68,6 +68,14 @@ public class GraphicImage extends AppCompatImageView implements View.OnClickList
         return Float.parseFloat(frac);
     }
 
+    public boolean checkVertices()
+    {
+        if (vertices.size() >= 3)
+            return true;
+        else
+            return false;
+    }
+
     public void randomizeVertices()
     {
         Random rand = new Random();
