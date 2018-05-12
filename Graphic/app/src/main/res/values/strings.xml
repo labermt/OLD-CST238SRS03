@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Graphic</string>
+    <string-array name = "ArrayofColors">
+        <item>BLUE</item>
+        <item>BLACK</item>
+        <item>RED</item>
+        <item>GREEN</item>
+    </string-array>
+</resources>
