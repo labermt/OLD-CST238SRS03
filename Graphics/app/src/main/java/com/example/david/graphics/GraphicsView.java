@@ -72,12 +72,15 @@ public class GraphicsView extends View
         fraction = 0.5f;
         iterations = 5000;
         randGen = new Random( Calendar.getInstance().getTimeInMillis() );
+        firstTime = true;
     }
 
 
     @Override
     protected void onDraw(Canvas canvas) {
         graphicsPaint.setStrokeWidth(4);
+        if(firstTime)graphicsPaint.setColor(Color.BLUE);
+        firstTime = false;
         for(Point point : points)
         {
             canvas.drawCircle(point.x, point.y, 4, graphicsPaint);
