@@ -1,9 +1,9 @@
 # CST238SRS03
 Graphics  
 
-Student Name:  
+Student Name:  David Russell
 
-Issues:  
+Issues:  Touches are not being recorded in graphicsView
 
 Notes:  
 ----
