@@ -1,9 +1,9 @@
 # CST238SRS03
 Graphics  
 
-Student Name:  
+Student Name: Bradley Bergstrom
 
-Issues:  
+Issues:  Does not draw between the points the user can set.
 
 Notes:  
 ----
