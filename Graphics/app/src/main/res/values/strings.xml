@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Graphics</string>
+    <string name="fraction_label">fraction</string>
+    <string name="iteration_label">iterations</string>
+
+    <string name="run_button">Run</string>
+    <string name="color_button">Color</string>
+
+    <string name="fraction_default">50%</string>
+    <string name="iterations_default">5000</string>
+</resources>
