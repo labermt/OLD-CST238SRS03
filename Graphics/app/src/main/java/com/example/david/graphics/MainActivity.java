@@ -64,7 +64,6 @@ public class MainActivity extends AppCompatActivity
             public void onStopTrackingTouch(SeekBar seekBar) {  }
         });
 
-/*
         //https://medium.com/@skydoves/how-to-implement-color-picker-in-android-61d8be348683
         ((ColorPickerView)findViewById(R.id.colorPickerView)).setColorListener(new ColorListener() {
             @Override
@@ -72,7 +71,7 @@ public class MainActivity extends AppCompatActivity
                 graphics.setPointColor(colorEnvelope.getColor());
             }
         });
-*/
+
     }
 
     @Override

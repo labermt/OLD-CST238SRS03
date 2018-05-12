@@ -45,15 +45,13 @@ public class GraphicsView extends View
             Calendar timeStamp;
             public boolean onTouch(View v, MotionEvent event) {
                 Calendar now = Calendar.getInstance();
-                if(longEnough(timeStamp, now)) {
-                    timeStamp = now;
                     if (event.getActionMasked() == ACTION_DOWN) {
                         manageTouchDown(event);
-                    } else if (event.getActionMasked() == ACTION_UP) {
+                    } else if (event.getActionMasked() == ACTION_UP && longEnough(timeStamp, now)) {
+                        timeStamp = now;
                         manageTouchUp(event);
                         performClick();
                     }
-                }
                 return true;
             }
         });

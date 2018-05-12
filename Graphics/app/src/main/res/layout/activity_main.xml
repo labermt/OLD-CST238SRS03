@@ -101,7 +101,7 @@
 
     <com.example.david.graphics.GraphicsView
         android:id="@+id/graphics_view"
-        android:layout_width="348dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="16dp"
