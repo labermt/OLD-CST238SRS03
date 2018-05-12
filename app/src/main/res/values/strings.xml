@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CST238SRS03</string>
+    <string-array name="colours">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Purple</item>
+        <item>Gray</item>
+    </string-array>
+</resources>
