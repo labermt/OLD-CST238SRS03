@@ -1,6 +1,8 @@
 # CST238SRS03
 Graphics  
 
+<img src="SierpinskiTriangle.PNG" width="40%">
+
 Student Name:  Tim Capehart
 
 Issues:  None
