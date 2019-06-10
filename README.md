@@ -1,11 +1,13 @@
 # CST238SRS03
 Graphics  
 
-Student Name:  
+<img src="SierpinskiTriangle.PNG" width="40%">
 
-Issues:  
+Student Name:  Tim Capehart
 
-Notes:  
+Issues:  None
+
+Notes:  Tapping screen draws the vertices. Downward swipe will clear the drawing.
 ----
 
 Purpose:  
